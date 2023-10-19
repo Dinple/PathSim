@@ -35,3 +35,4 @@ def diffuse(M_, d=0.5):
     SE = np.roll(S, shift=1, axis=1)
     diffused = r + N + S + E + W + NW + NE + SW + SE
     return diffused
+
